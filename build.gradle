@@ -1,0 +1,18 @@
+group 'com.nekokittygames'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.json:json:20151123'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    
+    compile 'com.google.code.gson:gson:2.5'
+}
